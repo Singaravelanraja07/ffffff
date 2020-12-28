@@ -7,6 +7,6 @@ WORKDIR /app
 COPY . .
 
 COPY index.html /usr/share/nginx/html/
-COPY default /etc/nginx/sites-available/
+COPY hello.conf /etc/nginx/sites-available/
 
 EXPOSE 80
